@@ -25,20 +25,20 @@ canvas {
 
 #overlay h1 {
     margin-bottom: 1rem;
-    font-size: 3rem;
-    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
 }
 
 #overlay p {
-    font-size: 2rem;
+    font-size: 1rem;
     max-width: 650px;
     margin: 0.4rem 0;
     line-height: 1.5;
 }
 
 #overlay .hint {
-    margin-top: 2rem;
-    font-size: 36px;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
     opacity: 0.85;
 }
 
@@ -50,12 +50,9 @@ canvas {
     padding: 0.6rem 0.8rem;
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.4;
     border-radius: 4px;
     z-index: 5;
     pointer-events: none;
 }
-
-
-
