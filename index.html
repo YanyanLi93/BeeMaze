@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Maze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Intro Panel -->
+    <div id="overlay">
+        <h1>Bee Maze</h1>
+        <p>You are a young honeybee, newly emerged from the hive. Your mission is to navigate the maze of hexagonal chambers and find the Queen Bee deep inside.</p>
+        <p>Search through the honeycomb walls. Some walls may hide secret passages leading deeper into the hive.</p>
+        
+        <div class="hint">
+        Click: Start<br>
+        Esc: Quit<br>
+        Mouse: View<br>
+        W A S D: Move
+        </div>
+
+        <div class="hint">Click anywhere to begin your journey 🐝</div>
+    </div>
+
+    <!-- Permanent HUD (top-left corner) -->
+    <div id="hud">
+        <strong>Controls</strong><br>
+        Click: Start<br>
+        Esc: Quit<br>
+        Mouse: View<br>
+        W A S D: Move
+    </div>
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/examples/jsm/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+          }
+        }
+    </script>
+    <script type="module" src="./sketch.js"></script>
+</body>
+</html>

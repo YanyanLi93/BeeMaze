@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+/* Intro panel */
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 10;
+}
+
+#overlay h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+}
+
+#overlay p {
+    font-size: 1rem;
+    max-width: 650px;
+    margin: 0.4rem 0;
+    line-height: 1.5;
+}
+
+#overlay .hint {
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    opacity: 0.85;
+}
+
+/* Permanent HUD */
+#hud {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 0.6rem 0.8rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    z-index: 5;
+    pointer-events: none;
+}
